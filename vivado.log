@@ -1,0 +1,134 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 23 15:40:29 2020
+# Process ID: 21632
+# Current directory: c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex
+# Command line: vivado.exe -notrace -source c:/Projects/Xilinx/DisplayPort_1_4_rx_example/project_1/.Xil/v_dp_rxss1_0/tmp_v_dp_rxss1_0.srcs/sources_1/ip/v_dp_rxss1_0/v_dp_rxss1_0_ex.tcl
+# Log file: c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex/vivado.log
+# Journal file: c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source c:/Projects/Xilinx/DisplayPort_1_4_rx_example/project_1/.Xil/v_dp_rxss1_0/tmp_v_dp_rxss1_0.srcs/sources_1/ip/v_dp_rxss1_0/v_dp_rxss1_0_ex.tcl -notrace
+INFO: [open_example_project] Creating new example project...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1133.086 ; gain = 52.996
+INFO: [open_example_project] Adding example synthesis miscellaneous files ...
+INFO: [open_example_project] Adding example XDC files ...
+INFO: [open_example_project] Sourcing example extension scripts ...
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.0 available at C:/Users/larry/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.0/1.0/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:au280_es1:part0:1.1 available at C:/Users/larry/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/au280/es1/1.1/1.1/board.xml as part xcu280-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.0 available at C:/Users/larry/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.0/1.0/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128_es:part0:1.1 available at C:/Users/larry/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu128/1.1/1.1/board.xml as part xcvu37p-fsvh2892-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129_es:part0:1.0 available at C:/Users/larry/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store/XilinxBoardStore/Vivado/2019.1/boards/Xilinx/vcu129/es/1.0/1.0/board.xml as part xcvu29p-fsga2577-2l-e-es1 specified in board_part file is either invalid or not available
+INFO: [BD_TCL-3] Currently there is no design <dpss_zcu102_rx> in project, so creating one...
+Wrote  : <c:\Projects\Xilinx\DisplayPort_1_4_rx_example\v_dp_rxss1_0_ex\v_dp_rxss1_0_ex.srcs\sources_1\bd\dpss_zcu102_rx\dpss_zcu102_rx.bd> 
+create_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1210.789 ; gain = 77.703
+INFO: [BD_TCL-4] Making design <dpss_zcu102_rx> as current_bd_design.
+INFO: [BD_TCL-5] Currently the variable <design_name> is equal to "dpss_zcu102_rx".
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+create_bd_cell: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2344.781 ; gain = 1104.695
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKOUT1_DIVIDE' from '3' to '4' has been ignored for IP 'clk_wiz_0'
+BEGIN1: update_boundary
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+create_bd_cell: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2386.254 ; gain = 21.727
+BEGIN1: update_boundary
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+create_bd_cell: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2658.676 ; gain = 262.871
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/util_ds_buf_1/IBUF_DS_N is being overridden by the user. This pin will not be connected as a part of interface connection CLK_IN_D
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/util_ds_buf_0/IBUF_DS_N is being overridden by the user. This pin will not be connected as a part of interface connection CLK_IN_D
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/util_ds_buf_1/IBUF_DS_P is being overridden by the user. This pin will not be connected as a part of interface connection CLK_IN_D
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/util_ds_buf_0/IBUF_DS_P is being overridden by the user. This pin will not be connected as a part of interface connection CLK_IN_D
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/edid_iic_scl_i is being overridden by the user. This pin will not be connected as a part of interface connection edid_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/edid_iic_scl_t is being overridden by the user. This pin will not be connected as a part of interface connection edid_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/edid_iic_sda_t is being overridden by the user. This pin will not be connected as a part of interface connection edid_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/ext_iic_scl_i is being overridden by the user. This pin will not be connected as a part of interface connection ext_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/ext_iic_sda_i is being overridden by the user. This pin will not be connected as a part of interface connection ext_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/edid_iic_sda_i is being overridden by the user. This pin will not be connected as a part of interface connection edid_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/ext_iic_scl_o is being overridden by the user. This pin will not be connected as a part of interface connection ext_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/ext_iic_scl_t is being overridden by the user. This pin will not be connected as a part of interface connection ext_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/ext_iic_sda_o is being overridden by the user. This pin will not be connected as a part of interface connection ext_iic
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/v_dp_rxss1_0/ext_iic_sda_t is being overridden by the user. This pin will not be connected as a part of interface connection ext_iic
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'C_BRAM_CNT' from '6' to '0' has been ignored for IP 'system_ila_1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'C_BRAM_CNT' from '6' to '0' has been ignored for IP 'system_ila_2'
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [BD 41-1306] The connection to interface pin /axi_iic_0/scl_o is being overridden by the user. This pin will not be connected as a part of interface connection IIC
+WARNING: [BD 41-1306] The connection to interface pin /axi_iic_0/scl_t is being overridden by the user. This pin will not be connected as a part of interface connection IIC
+WARNING: [BD 41-1306] The connection to interface pin /axi_iic_0/sda_o is being overridden by the user. This pin will not be connected as a part of interface connection IIC
+WARNING: [BD 41-1306] The connection to interface pin /axi_iic_0/sda_t is being overridden by the user. This pin will not be connected as a part of interface connection IIC
+WARNING: [BD 41-1306] The connection to interface pin /axi_iic_0/scl_i is being overridden by the user. This pin will not be connected as a part of interface connection IIC
+WARNING: [BD 41-1306] The connection to interface pin /axi_iic_0/sda_i is being overridden by the user. This pin will not be connected as a part of interface connection IIC
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/Vid_Out_AXIS_tready is being overridden by the user. This pin will not be connected as a part of interface connection Vid_Out_AXIS
+WARNING: [BD 41-1306] The connection to interface pin /dp_rx_hier_0/aud_axi_egress_tready is being overridden by the user. This pin will not be connected as a part of interface connection aud_axi_egress
+WARNING: [BD 41-1306] The connection to interface pin /system_ila_1/SLOT_0_AXIS_tready is being overridden by the user. This pin will not be connected as a part of interface connection SLOT_0_AXIS
+WARNING: [BD 41-1306] The connection to interface pin /system_ila_2/SLOT_0_AXIS_tready is being overridden by the user. This pin will not be connected as a part of interface connection SLOT_0_AXIS
+Wrote  : <c:\Projects\Xilinx\DisplayPort_1_4_rx_example\v_dp_rxss1_0_ex\v_dp_rxss1_0_ex.srcs\sources_1\bd\dpss_zcu102_rx\dpss_zcu102_rx.bd> 
+Wrote  : <c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ui/bd_a8cd27ab.ui> 
+WARNING: [BD_TCL-1000] This Tcl script was generated from a block design that has not been validated. It is possible that design <dpss_zcu102_rx> may result in errors during validation.
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+INFO: [PSU-1]  DP_AUDIO clock source: RPLL is also being used by other peripheral clocks. Their outputs may get impacted if any driver changes DP_AUDIO PLL source to support runtime audio change 
+WARNING: [xilinx.com:ip:smartconnect:1.0-1] bd_6311_xbar_0: IP bd_6311_xbar_0 is configured in Low area mode since all the endpoint slaves are AXI4LITE. One of the SIs has propert HAS_BURST == 1. This will be ignored. If wrap transactions are required then turn off Low area mode using ADVANCED_PROPERTIES. Execute following: set_property CONFIG.ADVANCED_PROPERTIES {__experimental_features__ {disable_low_area_mode 1}} [get_bd_cells /bd_6311_xbar_0]
+WARNING: [BD 41-721] Attempt to set value '0' on disabled parameter 'HAS_LOCK' of cell '/m00_exit_pipeline/m00_exit' is ignored
+WARNING: [BD 41-721] Attempt to set value '0' on disabled parameter 'HAS_LOCK' of cell '/m01_exit_pipeline/m01_exit' is ignored
+WARNING: [BD 41-1284] Cannot set parameter SUGGESTED_PRIORITY on port /dprxss_dp_irq
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/m00_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/m00_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M00_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/m01_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/m01_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M01_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/m02_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/m02_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M02_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/m03_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/m03_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M03_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/m04_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/m04_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M04_AXI(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /ps8_0_axi_periph/m05_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M05_AXI(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /ps8_0_axi_periph/m05_couplers/auto_ds/S_AXI(0) and /ps8_0_axi_periph/xbar/M05_AXI(16)
+WARNING: [BD 41-927] Following properties on pin /dp_rx_hier_0/video_frame_crc_0/s_axi_aclk have been updated from connected ip, but BD cell '/dp_rx_hier_0/video_frame_crc_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	FREQ_HZ = 99999001 
+Please resolve any mismatches by directly setting properties on BD cell </dp_rx_hier_0/video_frame_crc_0> to completely resolve these warnings.
+WARNING: [BD 41-927] Following properties on pin /dp_rx_hier_0/video_frame_crc_0/vid_in_axis_aclk have been updated from connected ip, but BD cell '/dp_rx_hier_0/video_frame_crc_0' does not accept parameter changes, so they may not be synchronized with cell properties:
+	PHASE = 0.0 
+Please resolve any mismatches by directly setting properties on BD cell </dp_rx_hier_0/video_frame_crc_0> to completely resolve these warnings.
+Wrote  : <c:\Projects\Xilinx\DisplayPort_1_4_rx_example\v_dp_rxss1_0_ex\v_dp_rxss1_0_ex.srcs\sources_1\bd\dpss_zcu102_rx\dpss_zcu102_rx.bd> 
+Wrote  : <c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/ui/bd_a8cd27ab.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/dp_rx_hier_0/v_dp_rxss1_0/s_axis_phy_rx_sb_status_tdata'(32) to pin: '/dp_rx_hier_0/vid_phy_controller_0/vid_phy_status_sb_rx_tdata'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_arid'(17) to pin: '/ps8_0_axi_periph/s00_couplers/M_AXI_arid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_awid'(17) to pin: '/ps8_0_axi_periph/s00_couplers/M_AXI_awid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_awid'(17) to pin: '/ps8_0_axi_periph/s01_couplers/M_AXI_awid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_arid'(17) to pin: '/ps8_0_axi_periph/s01_couplers/M_AXI_arid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp0_rid'(16) to pin: '/ps8_0_axi_periph/S01_AXI_rid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp0_bid'(16) to pin: '/ps8_0_axi_periph/S01_AXI_bid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp1_rid'(16) to pin: '/ps8_0_axi_periph/S00_AXI_rid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp1_bid'(16) to pin: '/ps8_0_axi_periph/S00_AXI_bid'(17) - Only lower order bits will be connected.
+VHDL Output written to : c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/synth/dpss_zcu102_rx.vhd
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/dp_rx_hier_0/v_dp_rxss1_0/s_axis_phy_rx_sb_status_tdata'(32) to pin: '/dp_rx_hier_0/vid_phy_controller_0/vid_phy_status_sb_rx_tdata'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_arid'(17) to pin: '/ps8_0_axi_periph/s00_couplers/M_AXI_arid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_awid'(17) to pin: '/ps8_0_axi_periph/s00_couplers/M_AXI_awid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_awid'(17) to pin: '/ps8_0_axi_periph/s01_couplers/M_AXI_awid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps8_0_axi_periph/xbar/s_axi_arid'(17) to pin: '/ps8_0_axi_periph/s01_couplers/M_AXI_arid'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp0_rid'(16) to pin: '/ps8_0_axi_periph/S01_AXI_rid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp0_bid'(16) to pin: '/ps8_0_axi_periph/S01_AXI_bid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp1_rid'(16) to pin: '/ps8_0_axi_periph/S00_AXI_rid'(17) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/maxigp1_bid'(16) to pin: '/ps8_0_axi_periph/S00_AXI_bid'(17) - Only lower order bits will be connected.
+VHDL Output written to : c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/sim/dpss_zcu102_rx.vhd
+VHDL Output written to : c:/Projects/Xilinx/DisplayPort_1_4_rx_example/v_dp_rxss1_0_ex/v_dp_rxss1_0_ex.srcs/sources_1/bd/dpss_zcu102_rx/hdl/dpss_zcu102_rx_wrapper.vhd
+make_wrapper: Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 3192.094 ; gain = 249.949
+WARNING: [Vivado 12-818] No files matched 'v_dp_rxss1_0.xci'
+INFO: [open_example_project] Open Example Project completed
+update_compile_order -fileset sources_1
